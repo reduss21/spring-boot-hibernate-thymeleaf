@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo.web;
+package com.demo.web;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.howtodoinjava.demo.exception.RecordNotFoundException;
-import com.howtodoinjava.demo.model.EmployeeEntity;
-import com.howtodoinjava.demo.service.EmployeeService;
+import com.demo.exception.RecordNotFoundException;
+import com.demo.model.EmployeeEntity;
+import com.demo.service.EmployeeService;
 
 @Controller
 @RequestMapping("/")

@@ -1,15 +1,15 @@
-package com.howtodoinjava.demo.service;
+package com.demo.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import com.demo.model.EmployeeEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.howtodoinjava.demo.exception.RecordNotFoundException;
-import com.howtodoinjava.demo.model.EmployeeEntity;
-import com.howtodoinjava.demo.repository.EmployeeRepository;
+import com.demo.exception.RecordNotFoundException;
+import com.demo.repository.EmployeeRepository;
 
 @Service
 public class EmployeeService {

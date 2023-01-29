@@ -1,4 +1,4 @@
-package com.howtodoinjava.demo.model;
+package com.demo.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
